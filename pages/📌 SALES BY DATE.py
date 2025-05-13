@@ -129,9 +129,13 @@ with p2:
  st.altair_chart(bar_chart, use_container_width=True,theme=theme_plotly)
 st.sidebar.image("data/logo1.png")
 
- 
-
-
+ # bande de bas de pages
+st.markdown("""
+    <hr style="border-top: 1px solid #4CAF50; margin-top: 50px;"/>
+    <div style="text-align: center; color: #888; font-size: 0.9em;">
+        &copy; 2025 <strong>Josias Nteme</strong> - Tous droits réservés.
+    </div>
+""", unsafe_allow_html=True)
 
 
 

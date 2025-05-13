@@ -71,5 +71,12 @@ def ad():
     delta_color="inverse")
 style_metric_cards(background_color="#FFFFFF",border_left_color="#686664",border_color="#000000",box_shadow="#F71938")
   
-    
+
 ad()
+# bande de bas de pages
+st.markdown("""
+    <hr style="border-top: 1px solid #4CAF50; margin-top: 50px;"/>
+    <div style="text-align: center; color: #888; font-size: 0.9em;">
+        &copy; 2025 <strong>Josias Nteme</strong> - Tous droits réservés.
+    </div>
+""", unsafe_allow_html=True) 

@@ -196,3 +196,10 @@ concatenated_df.columns = ['Original Age', 'Winsorized Age']
 
 # Display concatenated data
 st.dataframe(concatenated_df,use_container_width=True)
+# bande de bas de pages
+st.markdown("""
+    <hr style="border-top: 1px solid #4CAF50; margin-top: 50px;"/>
+    <div style="text-align: center; color: #888; font-size: 0.9em;">
+        &copy; 2025 <strong>Josias Nteme</strong> - Tous droits réservés.
+    </div>
+""", unsafe_allow_html=True)
