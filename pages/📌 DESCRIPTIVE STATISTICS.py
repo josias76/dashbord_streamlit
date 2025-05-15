@@ -7,7 +7,7 @@ from streamlit_extras.metric_cards import style_metric_cards
 st.set_page_config(page_title="Dashboard ", page_icon="📈", layout="wide")  
 st.header("PERCENTILES, NUMBER SUMMARY FOR CATEGORICAL DATA")
 st.markdown("##")
- 
+st.sidebar.image("logo2.jpeg", caption="SDA Consulting") 
 with open('style.css')as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
      

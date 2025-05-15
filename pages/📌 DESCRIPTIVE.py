@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 def load_data():
     return pd.read_csv('dataset.csv')
 
-st.sidebar.image("logo2.png", caption="EmployeeEcho Insights")
+st.sidebar.image("logo2.jpeg", caption="SDA Consulting")
 
 def calculate_statistics(data):
     # Compute basic statistics

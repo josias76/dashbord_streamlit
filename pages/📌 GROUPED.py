@@ -9,8 +9,8 @@ st.set_page_config(layout="wide")
 
 def load_data():
     return pd.read_csv('dataset.csv')
-
-st.sidebar.image("logo2.png",caption="EmployeeEcho Insights")
+#logo
+st.sidebar.image("logo2.jpeg",caption="SDA Consulting")
 theme_plotly = None 
 
 # load Style css

@@ -9,7 +9,7 @@ st.subheader("PYTHON QUERY OPERATIONS | FETCH DATA FROM DATASET BY ADVANCED QUER
 theme_plotly = None 
 
 #sidebar
-st.sidebar.image("data/logo1.png")
+st.sidebar.image("data/logo1.jpeg",caption="SDA Consulting")
 
 # load Style css
 with open('style.css')as f:

@@ -17,7 +17,7 @@ with open('style.css')as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
 
 #Logo
-st.sidebar.image("data/logo1.png")
+st.sidebar.image("data/logo1.jpeg",caption="SDA Consulting")
 
 #read dataset
 df=pd.read_excel("hypothesis.xlsx")

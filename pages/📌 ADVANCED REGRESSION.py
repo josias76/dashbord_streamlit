@@ -238,8 +238,8 @@ try:
   import statsmodels.api as sm
   model=sm.OLS(y_train,X_train).fit()
   st.write(model.summary())
-
- st.sidebar.image("data/logo1.png")
+ st.sidebar.image("data/logo1.jpeg", caption="SDA Consulting")
+ #st.sidebar.image("data/logo1.png")
  style_metric_cards(background_color="#FFFFFF",border_left_color="#686664",border_color="#000000",box_shadow="#F71938")
 
 except:

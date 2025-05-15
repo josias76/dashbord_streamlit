@@ -15,7 +15,8 @@ from streamlit_extras.metric_cards import style_metric_cards
 st.set_page_config(page_title="Dashboard", page_icon="📈", layout="wide")  
 
 st.header("PREDICTIVE ANALYTICS DASHBOARD")
-st.image("data/logo2.webp",caption="")
+#st.sidebar.image("data/logo1.jpeg",caption="SDA Consulting")
+#st.image("data/logo2.webp",caption="")
 st.write("MULTIPLE REGRESSION WITH  SSE, SE, SSR, SST, R2, ADJ[R2], RESIDUAL")
 st.success("The main objective is to measure if Number of family dependents and Wives may influence a person to supervise many projects")
  
@@ -133,7 +134,7 @@ if submit_button:
   with st.expander("NEW INCOMMING DATA PREDICTION"):
    st.write(f"<span style='font-size: 34px;color:green;'>Predicted Output: </span> <span style='font-size: 34px;'> {new_prediction}</span>", unsafe_allow_html=True)
  
-st.sidebar.image("data/logo1.png",caption="")
+st.sidebar.image("data/logo1.jpeg",caption="SDA Consulting")
 
 # bande de bas de pages
 st.markdown("""

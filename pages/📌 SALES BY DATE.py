@@ -127,7 +127,7 @@ with p2:
         y=alt.Y("Product:N", sort="-x")
     )
  st.altair_chart(bar_chart, use_container_width=True,theme=theme_plotly)
-st.sidebar.image("data/logo1.png")
+st.sidebar.image("data/logo1.jpeg",caption="SDA Consulting")
 
  # bande de bas de pages
 st.markdown("""

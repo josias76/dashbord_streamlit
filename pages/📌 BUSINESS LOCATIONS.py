@@ -36,7 +36,7 @@ theme_plotly = None
 load_df = pd.read_excel('coordinates.xlsx')
 
  #logo
-st.sidebar.image("data/logo1.png",caption="")
+st.sidebar.image("data/logo1.jpeg", caption="SDA Consulting")
  
 name=st.sidebar.multiselect(
     "SELECT OFFICE",

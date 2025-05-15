@@ -130,7 +130,7 @@ def sideBar():
 
 # Main execution
 sideBar()
-st.sidebar.image("data/logo1.png", caption="")
+st.sidebar.image("data/logo1.jpeg", caption="SDA Consulting")
 
 # Quartile analysis
 st.subheader("PICK FEATURES TO EXPLORE DISTRIBUTIONS TRENDS BY QUARTILES")
