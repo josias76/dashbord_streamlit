@@ -113,7 +113,7 @@ def main():
     c3.metric("Variance (Grouped Data):", f"{variance:.2f}")
     d1.metric("Standard Deviation (Grouped Data):", f"{std_dev:.2f}")
     d2.metric("Standard Error (Grouped Data):", f"{standard_error:.2f}")
-    style_metric_cards(border_left_color="#e1ff8b", background_color="#222222")
+    style_metric_cards(border_left_color="#e1ff8b", background_color="#FFFFFF")
 
     # Skewness visualization
     x = np.linspace(dataset['age'].min(), dataset['age'].max(), 100)

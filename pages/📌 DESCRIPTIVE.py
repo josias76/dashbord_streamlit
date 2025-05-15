@@ -110,7 +110,7 @@ def main():
     a3.metric("Interquartile Range (IQR):", f"{IQR:.2f}")
     b1.metric("Minimum Value:", f"{min_val:.2f}")
     b2.metric("Maximum Value:", f"{max_val:.2f}")
-    style_metric_cards(border_left_color="#e1ff8b",background_color="#222222")
+    style_metric_cards(border_left_color="#e1ff8b",background_color="#FFFFFF")
 
     st.subheader("Visualizations")
     st.plotly_chart(ogives_fig, use_container_width=True)

@@ -147,7 +147,10 @@ with d2:
     box_fig_lof = px.box(df, x='lof_anomaly', y='age', color='lof_anomaly',
                          color_discrete_map={1: 'blue', -1: 'red'},
                          labels={'lof_anomaly': 'Anomaly', 'age': 'Age'})
-    st.plotly_chart(box_fig_lof, use_container_width=True)
+    st.plotly_chart(box_fig_lof, use_container_width=True, key="box_fig_lof")    #
+    #st.plotly_chart(box_fig_lof, use_container_width=True)    Il faut ajouter un argument key unique à chaque appel de 
+    # st.plotly_chart() 
+    # pour que Streamlit puisse les distinguer.
 
 # Display outliers detected by LOF
 st.write("### Detected Outliers (LOF)")

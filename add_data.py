@@ -50,6 +50,8 @@ def add_data():
         except:
             st.warning("Unable to write, Please close your dataset !!") 
             return False
-    st.experimental_rerun 
+    st.rerun()
+
+    #st.experimental_rerun 
 
 
